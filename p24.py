@@ -6,7 +6,7 @@
 
 #     def __repr__(self):
 #         return "ListNode ({})".format(self.val.__repr__())
-
+from linklist import ListNode
 
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
